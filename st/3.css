@@ -1,0 +1,75 @@
+html	{ padding: 1ex 1em; background:#777;}
+body	{ background:#EEE; border:solid 1pt #035; font: 400 12pt sans-serif;}
+body, header, nav, footer	{ border-radius: 1em; padding:0; margin:0;}
+header	{ border-radius:0.8em 0.8em 0 0;}
+header nav { min-height:1em;}
+footer	{ border-radius:0 0 1em 1em; text-align:center;}
+input,select,button,textarea	{ border-radius:3pt;}
+
+h1,h2,h3,h4,h5	{ margin:1ex; font:bold 120% sans-serif; padding:0 3em;}
+h1	{ border-bottom:outset 2pt #047; color:#047; font-style:oblique; margin-right:8em;}
+sup	{ font-size:70%;}
+a:visited	{ color:#060;}
+a[href^="#"]	{ color:#156; margin:0 1ex; text-decoration:none;}
+a[href^="http://"], a[href^="https://"], a[href^="git://"]	{ color:#700;}
+p,pre,dl	{ margin:0;}
+p	{ margin:2pt 6pt;}
+
+pre, code	{ padding:0; background:#FFF;}
+code	{ font:400 12pt monospace; padding:0 6pt;}
+pre	{ tab-size:4; -moz-tab-size:4; -o-tab-size:4;
+	border:inset 1pt #799; margin:2pt 2pt 1ex; background:#DDD; }
+	
+#skinCh	{ float:right; padding:1em 1ex;}
+#tm	{ display:inline-block; float:left; clear:right; }
+#copyr	{ display:inline-block;}
+
+#navL	{ min-height:2em; margin:-0.8ex 0; padding:0; float: right;}
+#navL *	{  margin:0; padding:0; list-style-type:none;}
+#navL >li	{ display:inline-block; top:0;}
+#navL li >ul	{ position:absolute; display:none;}
+#navL li:hover >ul	{ display:block;}
+#navL a, #navL u	{ display:block; border:solid 1pt #AAA; padding:3pt 1ex; margin:1pt;
+		text-decoration:none; color:#EEE; border-radius: 3pt;}
+#navL a:hover, #navL u:hover	{ color:#FFF;}
+
+header, #navL a, #navL u	{ background:url(data:image/gif;base64,R0lGODlhAQAgAMQGAAAAAAgICBAQEBgYGCAgICgoKDAwMDg4OEBAQEhISFBQUFhYWGBgYGhoaHBwcHh4eICAgIiIiJCQkJiYmKCgoKioqLCwsLi4uMDAwMjIyNDQ0NjY2ODg4Ojo6PDw8Pj4+CwAAAAAAQAgAAAFGaAhHgiSKMrCMI3jPBAUSdJEUZVlXRiWaSEAOw==) 0/contain repeat-x;
+}
+header h2	{ background: url(data:image/gif;base64,R0lGODlhEAAQAIAAAAAAAP///yH5BAkAAAEALAAAAAAQABAAAAIojI9pwMEPXHNLRUqvxVxx7VVdeIGkGIqmV6aHtiLw+GJtcj8StLteAQA7) 1ex/contain no-repeat;
+	padding:1ex 0 1em 6em;  margin:0; font:600 20pt monospace; color:#DDD; text-shadow:1px 1px 1px #299;
+}
+header p	{ margin : -2em 2pt 2pt 8em; }
+
+footer	{ background:#BBB; padding: 1ex 1em; color:#006; border-top :inset 2pt #AAA;}
+ 
+
+table	{ display:inline-table; border:inset 1pt #888;}
+td,th	{ padding:3pt 1ex; border:inset 1pt #888;}
+th h3	{ margin:0;}
+
+.jsform	{ background:#DDD; padding: 4pt 1em;}
+.jsform select	{ font-size:103%;}
+.warn {background:#ED5; padding: 1em 2em; color:red; border:inset 1pt red;
+	text-align:right; font-size:105%;}
+
+
+body.contentspage	{ padding: 1ex 1em;}
+body.contentspage h1	{ text-align:center;}
+p.backlinktop, p.backlinkbottom	{ display: block; float:left; margin-right:2em; color:#CCC;}
+p.backlinktop a, p.backlinkbottom a	{color:#CCC; text-decoration:none;}
+dl.superindex >dd  {/*word-spacing: .6ex;/*most important rule here!*/ line-height: 1.4;}
+.contentsfooty { border-top: thin solid #444; font-size: 90%;}
+
+code._perl	{white-space:pre-wrap;background:#EED;
+		border:solid 2pt #CCC;margin:0;}
+code._perl,	code._perl .pod	{ display:block;padding:2pt 1em;}
+code._perl .str	{color:#900;}
+code._perl .kw	{color:#22e; font-weight:600;}
+code._perl .cmt	{ color:#060;}
+code._perl .exp	{ color:#007;}
+code._perl .var	{ color:#704; font-weight:600;}
+code._perl .num	{ color:#b00; font-weight:600;}
+code._perl .end	{ color:#777;}
+code._perl .pod	{ color:#006; background:#DDD;margin:0 -1em;}
+code._perl .fnc	{ color:#026; font-weight:600;}
+code._perl .pkg	{ color:#085; font-weight:600;}
